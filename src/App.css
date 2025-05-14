@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: rgb(160, 196, 226);
+}
+
+.name, details{
+  width: 50%;
+}
