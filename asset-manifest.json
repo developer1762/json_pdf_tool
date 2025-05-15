@@ -1,15 +1,15 @@
 {
-  "main.css": "/json_pdf_tool/static/css/main.4fc90965.chunk.css",
-  "main.js": "/json_pdf_tool/static/js/main.08ba0996.chunk.js",
-  "main.js.map": "/json_pdf_tool/static/js/main.08ba0996.chunk.js.map",
-  "runtime~main.js": "/json_pdf_tool/static/js/runtime~main.da29bb5e.js",
-  "runtime~main.js.map": "/json_pdf_tool/static/js/runtime~main.da29bb5e.js.map",
-  "static/js/2.9d0e09ba.chunk.js": "/json_pdf_tool/static/js/2.9d0e09ba.chunk.js",
-  "static/js/2.9d0e09ba.chunk.js.map": "/json_pdf_tool/static/js/2.9d0e09ba.chunk.js.map",
-  "static/js/3.a40f4158.chunk.js": "/json_pdf_tool/static/js/3.a40f4158.chunk.js",
-  "static/js/3.a40f4158.chunk.js.map": "/json_pdf_tool/static/js/3.a40f4158.chunk.js.map",
-  "index.html": "/json_pdf_tool/index.html",
-  "precache-manifest.d12d271eee8358edb84464c258e2f802.js": "/json_pdf_tool/precache-manifest.d12d271eee8358edb84464c258e2f802.js",
-  "service-worker.js": "/json_pdf_tool/service-worker.js",
-  "static/css/main.4fc90965.chunk.css.map": "/json_pdf_tool/static/css/main.4fc90965.chunk.css.map"
+  "files": {
+    "main.css": "/json_pdf_tool/static/css/main.9cb304bb.css",
+    "main.js": "/json_pdf_tool/static/js/main.db0c67f4.js",
+    "static/js/453.e6fc2d1a.chunk.js": "/json_pdf_tool/static/js/453.e6fc2d1a.chunk.js",
+    "index.html": "/json_pdf_tool/index.html",
+    "main.9cb304bb.css.map": "/json_pdf_tool/static/css/main.9cb304bb.css.map",
+    "main.db0c67f4.js.map": "/json_pdf_tool/static/js/main.db0c67f4.js.map",
+    "453.e6fc2d1a.chunk.js.map": "/json_pdf_tool/static/js/453.e6fc2d1a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cb304bb.css",
+    "static/js/main.db0c67f4.js"
+  ]
 }
