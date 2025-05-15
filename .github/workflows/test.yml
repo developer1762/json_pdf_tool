@@ -1,11 +1,14 @@
+name: Handle API Dispatch
+
 on:
   repository_dispatch:
     types: [run-api]
 
 jobs:
-  handle-request:
+  handle_dispatch:
     runs-on: ubuntu-latest
     steps:
-      - name: Print input payload
+      - name: Print event payload
         run: |
-          echo "Received input: ${{ github.event.client_payload }}
+          echo "Name: ${{ github.event.client_payload.name }}"
+          echo "Action: ${{ github.event.client_payload.action }}"

@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "EcoSmart LED Bulb",
+  "manufacturer": {
+    "@type": "Organization",
+    "name": "EcoLight Industries",
+    "location": "Germany"
+  },
+  "model": "ELI-LED-9W",
+  "category": "Lighting Equipment",
+  "material": [
+    { "@type": "Product", "name": "Aluminum", "percentage": "70%" },
+    { "@type": "Product", "name": "Glass", "percentage": "30%" }
+  ],
+  "energyEfficiencyScale": "A++",
+  "recyclablePercentage": "95%",
+  "serialNumber": "SN-ELI-2024-000345",
+  "releaseDate": "2024-08-20",
+  "warranty": "24 months",
+  "url": "https://example.com/dpp/ELI-9W"
+}
