@@ -1,7 +1,7 @@
 {
   "name": "json_pdf_tool",
   "version": "0.1.0",
-  "homepage": "https://developer1762.github.io/json_pdf_tool/",
+  "homepage": "https://developer1762.github.io/json_pdf_tool",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.4",

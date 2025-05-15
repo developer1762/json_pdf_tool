@@ -17,13 +17,19 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Brightness4Icon from '@mui/icons-material/Brightness4';
 import Brightness7Icon from '@mui/icons-material/Brightness7';
 
+let BaseURL = process.env.REACT_APP_BASE_URL;
+
+console.log('BaseURL:', process.env.REACT_APP_BASE_URL);
 export default function Header({ toggleTheme, isDarkMode }) {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
   const [drawerOpen, setDrawerOpen] = React.useState(false);
+  // if(window.location.href.includes('localhost')) {
+  //   BaseURL = 'http://localhost:3000';
+  // }
 
   const navLinks = [
-    { label: 'Home', href: '/' },
+    { label: 'Home', href: '/home' },
     { label: 'Convert Files', href: '/convert' },
     { label: 'View Passports', href: '/view' },
   ];
@@ -58,7 +64,7 @@ export default function Header({ toggleTheme, isDarkMode }) {
       </Typography>
       <List>
         {navLinks.map((link) => (
-          <ListItem key={link.label} component="a" href={link.href}>
+          <ListItem key={link.label} component="a" href={`${BaseURL}/#${link.href}`}>
             <ListItemText
               primary={link.label}
               primaryTypographyProps={{
@@ -97,7 +103,7 @@ export default function Header({ toggleTheme, isDarkMode }) {
           <Typography
             variant={isMobile ? 'h6' : 'h5'}
             component="a"
-            href="/"
+            href={`${BaseURL}/#/home`}
             sx={{
               fontFamily: '"Roboto", sans-serif',
               fontWeight: 700,
@@ -124,7 +130,7 @@ export default function Header({ toggleTheme, isDarkMode }) {
             {navLinks.map((link) => (
               <Button
                 key={link.label}
-                href={link.href}
+                href={`${BaseURL}/#${link.href}`}
                 sx={{
                   fontFamily: '"Roboto", sans-serif',
                   fontWeight: 500,

@@ -36,7 +36,7 @@ const convertedFiles = [
 
 const View = () => {
   return (
-    <Box sx={{maxWidth: '100vw', overflowX: 'hidden' }}>
+    <Box sx={{maxWidth: '100vw', overflowX: 'hidden', mx:'auto', textAlign: 'center', py: 5}}>
       <Typography variant="h4" fontWeight="bold" gutterBottom>
         Your Digital Product Passports
       </Typography>
@@ -45,7 +45,7 @@ const View = () => {
         Browse and download your converted Digital Product Passports below.
       </Typography>
 
-      <Grid container spacing={3}>
+      <Grid container spacing={3} sx= {{mx: 'auto', display: 'flex', justifyContent: 'center'}}>
         {convertedFiles.map((entry, index) => (
           <Grid item xs={12} sm={6} md={4} key={index}>
             <Card sx={{ borderRadius: 3, boxShadow: 4, transition: '0.3s', '&:hover': { boxShadow: 8 } }}>
