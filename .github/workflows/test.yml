@@ -1,0 +1,11 @@
+on:
+  repository_dispatch:
+    types: [run-api]
+
+jobs:
+  handle-request:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print input payload
+        run: |
+          echo "Received input: ${{ github.event.client_payload }}
