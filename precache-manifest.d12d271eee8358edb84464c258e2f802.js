@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "3761d6c3d8d135d7832e",
+    "revision": "0cc4086941972893c1b2",
     "url": "/json_pdf_tool/static/css/main.4fc90965.chunk.css"
   },
   {
-    "revision": "3761d6c3d8d135d7832e",
-    "url": "/json_pdf_tool/static/js/main.0b45f4b1.chunk.js"
+    "revision": "0cc4086941972893c1b2",
+    "url": "/json_pdf_tool/static/js/main.08ba0996.chunk.js"
   },
   {
     "revision": "f7da3b9997488e83d7db",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/json_pdf_tool/static/js/3.a40f4158.chunk.js"
   },
   {
-    "revision": "3fa0c45e58c9ed14b85692406625bbad",
+    "revision": "2568b8e471f27b196f723ff6e363fc10",
     "url": "/json_pdf_tool/index.html"
   }
 ];
