@@ -1,7 +1,7 @@
 {
   "name": "json_pdf_tool",
   "version": "0.1.0",
-  "homepage": "https://atulsharma762.github.io/json_pdf_tool/",
+  "homepage": "https://developer1762.github.io/json_pdf_tool/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.4",
@@ -17,7 +17,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "deploy": "gh-pages -d build",    
+    "deploy": "gh-pages -d build",
     "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
     "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "test": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts test",
