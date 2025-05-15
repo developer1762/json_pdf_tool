@@ -1,0 +1,27 @@
+name: Read JSON from Parameter
+
+on:
+  workflow_dispatch:
+    inputs:
+      json_path:
+        description: 'Path to JSON file'
+        required: true
+        default: 'data.json'
+
+jobs:
+  read-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Read JSON from dynamic file
+        run: |
+          echo "Reading ${{ github.event.inputs.json_path }}..."
+          cat "${{ github.event.inputs.json_path }}"
+
+          echo "Parsing with jq:"
+          product=$(jq -r '.product' "${{ github.event.inputs.json_path }}")
+          echo "Product: $product"
+        shell: bash
